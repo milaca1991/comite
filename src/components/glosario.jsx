@@ -15,7 +15,7 @@ const Glosario = () => {
     { termino: 'IES', definicion: ' Canal dedicado a atender y generar ventas en el segmento de educación superior (Instituciones de educación superior).' },
     { termino: 'K12', definicion: 'Canal dedicado a atender y generar ventas en el segmento de educación que comprende primera infancia, básica y media.' },
     { termino: 'Lead', definicion: 'Usuario o institución de la base de datos de prospectos que ha demostrado interés en un producto o servicio, durante o después del evento.' },
-    { termino: 'Marcas propias:', definicion: 'Son marcas con las que tenemos un acuerdo(contrato) sea exclusivo o no.' },
+    { termino: 'Marcas propias', definicion: 'Son marcas con las que tenemos un acuerdo(contrato) sea exclusivo o no.' },
     { termino: 'Marcas foco', definicion: ' Son marcas que por sus condiciones se han seleccionado para enfocarnos en las ventas.' },
     { termino: 'Mega', definicion: 'Es una meta empresarial grande y ambiciosa focalizada en una ventaja competitiva única.' },
     { termino: 'Misión', definicion: 'Formulación de los propósitos de una organización. Expresan su razón de ser.' },
@@ -41,7 +41,7 @@ const Glosario = () => {
 
   return (
     <div className="glosario">
-      <h2>Glosario</h2>
+      <h2>Glosario ✌</h2>
       <ul>
         {terminos.map((item, index) => (
           <li key={index}>

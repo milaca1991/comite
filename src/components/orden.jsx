@@ -3,10 +3,10 @@ import React from 'react';
 const OrdenDelDia = () => {
   const agendaDelDia = [
     {
-      fecha: '01 DE NOVIEMBRE',
+      fecha: 'Agenda 1 Nov⚡',
       puntos: [
         {
-          titulo: 'Seguimiento a compromisos del comité del primer trimestre',
+          titulo: 'Seguimiento a compromisos',
           horaInicio: '08:30 a.m.',
           horaFinal: '9:30 a.m.',
           responsable: 'Responsable de cada compromiso.'
@@ -18,7 +18,7 @@ const OrdenDelDia = () => {
           responsable: 'Brindado por Gerencia'
         },
         {
-          titulo: 'Seguimiento a compromisos del comité del primer trimestre',
+          titulo: 'Seguimiento a compromisos',
           horaInicio: '9:45 a.m.',
           horaFinal: '10:30 a.m.',
           responsable: 'Responsable de cada compromiso.'
@@ -36,10 +36,10 @@ const OrdenDelDia = () => {
           responsable: 'Almuerzo Libre'
         },
         {
-          titulo: 'Revisión de resultados de indicadores y POAS que aplican al corte Septiembre 2023 - parte 1',
+          titulo: 'Revisión indicadores y POAS al corte Q3',
           horaInicio: '1:01 p.m.',
           horaFinal: '3:30 p.m.',
-          responsable: 'Gerentes, Directores y Coordinadores de las áreas.'
+          responsable: 'Tecnología, Desarrollo Humano, Proyectos'
         },
         {
           titulo: 'Break II',
@@ -48,21 +48,21 @@ const OrdenDelDia = () => {
           responsable: 'Brindado por Gerencia'
         },
         {
-          titulo: 'Revisión de resultados de indicadores Y POAS que aplican al corte Septiembre 2023 - parte 2',
+          titulo: 'Revisión indicadores y POAS al corte Q3',
           horaInicio: '03:46 p.m.',
           horaFinal: '05:30 p.m.',
-          responsable: 'Gerentes, Directores y Coordinadores de las áreas.'
+          responsable: 'Jurídica, Comités i+d, SGI'
         }
       ]
     },
     {
-      fecha: '02 DE NOVIEMBRE',
+      fecha: 'Agenda 2 Nov ⚡',
       puntos: [
         {
-          titulo: 'Revisión de resultados de indicadores Y POAS que aplican al corte Septiembre 2023 - parte 3',
+          titulo: 'Revisión indicadores y POAS al corte Q3',
           horaInicio: '08:30 a.m.',
           horaFinal: '10:15 a.m.',
-          responsable: 'Gerentes, Directores y Coordinadores de las áreas.'
+          responsable: 'Operaciones, Mercadeo, GAF'
         },
         {
           titulo: 'Break I',
@@ -71,10 +71,10 @@ const OrdenDelDia = () => {
           responsable: 'Brindado por Gerencia'
         },
         {
-          titulo: 'Revisión de resultados de indicadores Y POAS que aplican al corte Septiembre 2023 - parte 3',
+          titulo: 'Revisión indicadores y POAS al corte Q3',
           horaInicio: '10:31 a.m.',
           horaFinal: '12:30 p.m.',
-          responsable: 'Responsable de cada compromiso.'
+          responsable: 'Dinámico, Comercial'
         },
         {
           titulo: 'Reunión con Gerencia',

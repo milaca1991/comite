@@ -11,7 +11,7 @@ function HamburgerMenu() {
     return (
         <div className="mobile-menu">
         <button className="menu-toggle" onClick={toggleMenu}>
-            ☰
+        ︾
         </button>
         {isOpen && (
             <ul className="menu-items">

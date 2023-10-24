@@ -9,7 +9,7 @@ function Bienvenida() {
         <h1>Comité de Resultados</h1>
   
       
-        <p>Bienvenido al comité de resultados. Aquí encontrarás información sobre nuestros logros y objetivos.</p>
+        <p>¡Te damos la bienvenida al Comité de Resultados! </p>
      
         </div>
         </>

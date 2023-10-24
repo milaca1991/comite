@@ -7,6 +7,7 @@ import OrdenDelDia from './components/orden'
 import HamburgerMenu from './components/menu'
 import Footer from './components/footer'
 import Bienvenida from './components/inicio'
+import Apoyo from './components/apoyo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,10 @@ function App() {
      <main>
         <OrdenDelDia></OrdenDelDia>
         <Glosario></Glosario>
+  
         </main>
+
+
        <Footer></Footer>
     
    
