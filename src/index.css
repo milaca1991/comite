@@ -1,0 +1,240 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.landing-page {
+  text-align: center;
+  margin: 50px;
+}
+
+header {
+  background-color: #176B87;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  background-color: #176B87;
+  color: white;
+  padding: 10px;
+}
+
+/*estilos glosario*/
+.glosario {
+  margin-top: 20px;
+  display: block;
+  padding: 40px;
+}
+
+.glosario h2 {
+  font-size: 24px;
+  color: #007BFF;
+}
+
+.glosario ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.glosario li {
+  margin-bottom: 10px;
+  text-align: justify;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+
+
+/*estilos para el menu*/
+.mobile-menu .menu-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+/* Estilos para la lista de elementos del menú */
+.mobile-menu .menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 200px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+/* Estilos para el botón del menú */
+
+.mobile-menu .menu-items li {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.mobile-menu .menu-items li:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu .menu-items a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para mostrar el menú cuando está abierto */
+.mobile-menu.open .menu-items {
+  display: block;
+}
+
+/* Estilos para el botón de menú */
+
+
+/* Establece un punto de quiebre para mostrar el menú en dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: block; /* Muestra el menú en dispositivos móviles */
+  }
+
+
+h1{
+
+  font-size: 2.8rem;
+}
+p{
+  font-size: 1rem;
+  display: block ;
+  padding: 30px;
+}
+
+}
+
+
+@media screen and (min-width: 320px) {
+
+  .mobile-menu .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #333;
+    position: absolute;
+    top: 100px;
+    left: 145px;
+    width: 200px;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+
+
+}
+
+/*oden del dia estilos*/
+
+/* Estilos para la sección "Orden del Día" */
+.orden-del-dia {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  text-align: left;
+}
+
+.orden-del-dia h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.orden-del-dia ul {
+  list-style: none;
+  padding: 0;
+}
+
+.orden-del-dia li {
+  margin: 5px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.orden-del-dia li::before {
+  content: '•'; /* Viñeta personalizada (puedes usar otro carácter) */
+  position: absolute;
+  left: 0;
+  color: #007BFF; /* Color de la viñeta */
+}
