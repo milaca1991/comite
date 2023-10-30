@@ -12,8 +12,7 @@ function Bienvenida() {
           src="/img/1.jpg"
           alt="imgInicio"
           className="imgInicio"
-          style={{ width: "70%", height: "auto" }}
-        />
+          />
 
 <p className="parrafo">Nuestro objetivo: <br></br>Proporcionar información a la alta dirección sobre los logros y resultados de cada área, con el fin de respaldar la toma de decisiones y la formulación de planes de acción a nivel empresarial</p>
 

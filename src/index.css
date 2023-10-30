@@ -174,7 +174,10 @@ height: 10vh;
 
 }
 
+.imgInicio{
 
+  width: 70%;
+}
 
 .umbrales{
 
@@ -283,9 +286,10 @@ h1{
 
 @media (min-width: 768px) {
   /* Tus estilos para pantallas de 768 píxeles o más */
-  .umbrales{
+  .umbrales,.imgInicio{
 
-    width: 50%;
+    width: 30%;
+
   }
 }
 
