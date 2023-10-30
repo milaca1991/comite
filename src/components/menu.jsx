@@ -1,56 +1,61 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll'; // Puedes usar react-scroll para un desplazamiento suave a las secciones
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 function HamburgerMenu() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-      setIsOpen(!isOpen);
-    };
-  
-    return (
-        <div className="mobile-menu">
-        <button className="menu-toggle" onClick={toggleMenu}>
-        ︾
-        </button>
-        {isOpen && (
-            <ul className="menu-items">
-            
+  const handleCloseMenu = () => {
+    setIsOpen(false);
+  };
 
-            <li>
-                    <Link
-                        to="orden-del-dia" // Reemplaza con el ID de la sección "Orden"
-                        smooth={true}
-                        duration={500}
-                    >
-                        Agenda del día
-                    </Link>
-                </li>
-                <li>
-                    <Link
-                        to="glosario" // Reemplaza con el ID de la sección "Glosario"
-                        smooth={true}
-                        duration={500}
-                    >
-                        Glosario
-                    </Link>
-                </li>
-           
-                <li>
-                    <Link
-                        to="footer" // Reemplaza con el ID de la sección "Orden"
-                        smooth={true}
-                        duration={500}
-                    >
-                        Footer
-                    </Link>
-                </li>
-
-
-            </ul>
-        )}
+  return (
+    <div className="navbar">
+      <div className="nav_logo"> CONTENIDO </div>
+      <div className={`nav_items ${isOpen && "open"}`}>
+      <Link
+          to="inicio" 
+          onClick={handleCloseMenu}// Reemplaza con el ID de la sección "Orden"
+          smooth={true}
+          duration={500}
+        >
+          Inicio
+        </Link>
+        
+        
+        <Link
+          to="orden-del-dia" // Reemplaza con el ID de la sección "Orden"
+          onClick={handleCloseMenu}
+          smooth={true}
+          duration={500}
+        >
+          Agenda del día
+        </Link>
+        <Link
+          to="glosario" // Reemplaza con el ID de la sección "Glosario"
+          onClick={handleCloseMenu}
+          smooth={true}
+          duration={500}
+        >
+          Glosario
+        </Link>
+        <Link
+          to="footer" // Reemplaza con el ID de la sección "Orden"
+          onClick={handleCloseMenu}
+          smooth={true}
+          duration={500}
+        >
+          Footer
+        </Link>
+      </div>
+      <div
+        className={`nav_toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-
   );
 }
 

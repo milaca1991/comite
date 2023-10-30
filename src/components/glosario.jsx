@@ -26,8 +26,9 @@ const Glosario = () => {
     { termino: 'Planeación estratégica', definicion: 'Es el proceso administrativo que involucra la formulación y desarrollo de planes a largo plazo para guiar a una organización hacia el logro de sus objetivos y metas.' },  
     { termino: 'POA', definicion: 'Plan operativo anual, es un instrumento que recoge las acciones a ejecutar para dar cumplimiento a los objetivos.' },
     { termino: 'Producto no conforme', definicion: 'Corresponde a un producto o servicio que no cumple las caracteristicas determinadas por el cliente y que son detectadas despues de la entrega del producto, y/o durante o despues de la prestación de un servicio.' },
-    { termino: 'Salida no conforme', definicion: 'Corresponde a un producto o servicio que no cumple las caracteristicas determinadas por el cliente, identificadas y controladas para prevenir su uso o entrega a cliente.' },
     { termino: 'Recompra', definicion: 'Compra hecha en el periodo por algún cliente.   ' },
+    { termino: 'Reskilling', definicion: 'Hace referencia a la formación de un nuevo empleado para adaptarlo a un nuevo puesto en la empresa.' },
+    { termino: 'Salida no conforme', definicion: 'Corresponde a un producto o servicio que no cumple las caracteristicas determinadas por el cliente, identificadas y controladas para prevenir su uso o entrega a cliente.' },
     { termino: 'SGR', definicion: 'Sistema general de regalías, mecanismo que garantiza la distribución equitativa de los ingresos que derivan de la explotación de los recursos naturales no renovables del país.' },
     { termino: 'Terceros', definicion: 'Hace referencia aquellas marcas que ofrecemos en nuestro portafolio y no cuentan con un contrato de representación.' },
     
@@ -41,7 +42,7 @@ const Glosario = () => {
 
   return (
     <div className="glosario">
-      <h2>Glosario ✌</h2>
+      <h2>Glosario ✌   </h2>
       <ul>
         {terminos.map((item, index) => (
           <li key={index}>
