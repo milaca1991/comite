@@ -24,6 +24,7 @@ function App() {
       <main>
         <OrdenDelDia></OrdenDelDia>
         <Glosario></Glosario>
+      <Apoyo></Apoyo>
       </main>
 
       <Footer></Footer>

@@ -39,12 +39,12 @@ function HamburgerMenu() {
           Glosario
         </Link>
         <Link
-          to="footer" // Reemplaza con el ID de la sección "Orden"
+          to="apoyo" // Reemplaza con el ID de la sección "Orden"
           onClick={handleCloseMenu}
           smooth={true}
           duration={500}
         >
-          Footer
+          Info apoyo
         </Link>
       </div>
       <div

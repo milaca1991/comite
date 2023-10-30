@@ -93,6 +93,16 @@ footer {
 
 }
 
+
+/*estilos apoyo*/
+.apoyo {
+  margin-top: 20px;
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
 /*estilos glosario*/
 .glosario {
   margin-top: 20px;
@@ -154,12 +164,21 @@ margin: 15px;
   display: none;
 }
 
-  
+.parrafo{
+  text-align: justify;
+}
 
 .div1{
 
 height: 10vh;
 
+}
+
+
+
+.umbrales{
+
+  width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -208,7 +227,6 @@ height: 10vh;
 
 
 }
-
 
 
 
@@ -262,10 +280,13 @@ h1{
 }
 
 
-@media screen and (max-width: 321px) and (min-width: 375px) {
 
+@media (min-width: 768px) {
+  /* Tus estilos para pantallas de 768 píxeles o más */
+  .umbrales{
 
-
-
-
+    width: 50%;
+  }
 }
+
+
