@@ -1,6 +1,8 @@
 import React from 'react'
-
  const Apoyo = () => {
+
+  const pdfUrl = 'https://drive.google.com/file/d/10Wnnp4oBJYtO68IeH1JsAvTmysg7K2tY/view?usp=sharing';
+  
   return (
     <div className='apoyo' >
       
@@ -18,7 +20,9 @@ import React from 'react'
 
 <h3>Indicadores que aplican al corte</h3>
 <p className="parrafo">En el enlace encontrarás los objetivos e indicadores que aplican al corte: </p>
-    
+<a href={pdfUrl} download="lista-indicadores-Q3.pdf">
+        Descargar PDF
+      </a>
     </div>
   )
 }
