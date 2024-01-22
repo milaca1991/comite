@@ -78,6 +78,13 @@ const OrdenDelDia = () => {
           responsable: 'Operaciones, Mercadeo'
         },
 
+              {
+          titulo: 'Almuerzo',
+          horaInicio: '12:01 p.m.',
+          horaFinal: '01:00 p.m.',
+          responsable: 'Almuerzo Libre'
+        },
+
    {
           titulo: 'Revisión indicadores y POAS',
           horaInicio: '1:01 p.m.',
