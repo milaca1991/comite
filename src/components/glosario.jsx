@@ -6,6 +6,7 @@ const Glosario = () => {
     { termino: 'Acción correctiva', definicion: 'Acción tomada para eliminar la causa de una no conformidad.' },
     { termino: 'Acción Preventiva', definicion: 'Acción para eliminar o mitigar la(s) causa(s) de una no conformidad potencial.' },
     { termino: 'ASCTel', definicion: 'Asignación para la Ciencia, Tecnología e Innovación del SGR.' },
+    { termino: 'Canal', definicion: 'Hace referencia a las distintas vías o medios a través de los cuales los negocios ingresan: Proyectos de presidencia, Proyectos, IES, K12, Parques e Instrumentación y control' },
     { termino: 'Cliente', definicion: 'Persona natural o jurídica que nos compró en los últimos 3 años.' },
     { termino: 'Corrección', definicion: 'La Acción para eliminar una No Conformidad detectada.' },
     { termino: 'Componentes tecnológicos', definicion: ' se refieren a los diversos elementos, dispositivos y sistemas utilizados en el ámbito de la tecnología de la información y la comunicación (TIC) que son fundamentales para el funcionamiento y la operación de infraestructuras tecnológicas. Estos componentes abarcan desde hardware, software, dispositivos de seguridad y redes.' },
@@ -15,6 +16,7 @@ const Glosario = () => {
     { termino: 'IES', definicion: ' Canal dedicado a atender y generar ventas en el segmento de educación superior (Instituciones de educación superior).' },
     { termino: 'K12', definicion: 'Canal dedicado a atender y generar ventas en el segmento de educación que comprende primera infancia, básica y media.' },
     { termino: 'Lead', definicion: 'Usuario o institución de la base de datos de prospectos que ha demostrado interés en un producto o servicio, durante o después del evento.' },
+    { termino: 'Lineas o marcas', definicion: 'Hacen referencia a las categorías o tipos específicos de productos o servicios que brindamos.' },
     { termino: 'Marcas propias', definicion: 'Son marcas con las que tenemos un acuerdo(contrato) sea exclusivo o no.' },
     { termino: 'Marcas foco', definicion: ' Son marcas que por sus condiciones se han seleccionado para enfocarnos en las ventas.' },
     { termino: 'Mega', definicion: 'Es una meta empresarial grande y ambiciosa focalizada en una ventaja competitiva única.' },
@@ -30,7 +32,8 @@ const Glosario = () => {
     { termino: 'Reskilling', definicion: 'Hace referencia a la formación de un nuevo empleado para adaptarlo a un nuevo puesto en la empresa.' },
     { termino: 'Salida no conforme', definicion: 'Corresponde a un producto o servicio que no cumple las caracteristicas determinadas por el cliente, identificadas y controladas para prevenir su uso o entrega a cliente.' },
     { termino: 'SGR', definicion: 'Sistema general de regalías, mecanismo que garantiza la distribución equitativa de los ingresos que derivan de la explotación de los recursos naturales no renovables del país.' },
-    { termino: 'Terceros', definicion: 'Hace referencia aquellas marcas que ofrecemos en nuestro portafolio y no cuentan con un contrato de representación.' },
+    { termino: 'Terceros', definicion: 'Hace referencia aquellas marcas que ofrecemos en nuestro portafolio y no cuentan con un contrato de representación.' },  
+{ termino: 'Unidad de negocio', definicion: 'Hace referencia al segmento de mercado específico al que estamos brindando soluciones: Esparcimiento, Educación e Industria' },
     
     
     
