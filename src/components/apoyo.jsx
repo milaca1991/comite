@@ -18,11 +18,12 @@ import React from 'react'
           className="umbrales"
            />
 
-<h3>Indicadores que aplican al corte</h3>
-<p className="parrafo">En el enlace encontrarás los objetivos e indicadores que aplican al corte: </p>
-<a href={pdfUrl} download="lista-indicadores-Q3.pdf">
-        Descargar PDF
-      </a>
+<h3>Estructura y orden de nuestras unidades de negocio</h3>
+    <img
+          src="/img/2.png"
+          alt="imgInicio"
+          className="umbrales"
+           />
     </div>
   )
 }
