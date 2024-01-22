@@ -20,7 +20,7 @@ import React from 'react'
 
 <h3>Estructura y orden de nuestras unidades de negocio</h3>
     <img
-          src="/img/'ESTRUCTURA UNIDADES DE NEGOCIO'.jpg"
+          src="/img/3.jpg"
           alt="imgEstructura"
           className="umbrales"
            />
