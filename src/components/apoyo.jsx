@@ -20,9 +20,9 @@ import React from 'react'
 
 <h3>Estructura y orden de nuestras unidades de negocio</h3>
     <img
-          src="/img/2.png"
-          alt="imgInicio"
-          className="umbrales"
+          src="/img/'ESTRUCTURA UNIDADES DE NEGOCIO'.png"
+          alt="imgEstructura"
+          className="estructura"
            />
     </div>
   )
