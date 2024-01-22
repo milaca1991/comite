@@ -3,7 +3,7 @@ import React from 'react';
 const OrdenDelDia = () => {
   const agendaDelDia = [
     {
-      fecha: 'Agenda 1 Nov⚡',
+      fecha: 'Agenda 24 Enero⚡',
       puntos: [
         {
           titulo: 'Seguimiento a compromisos',
@@ -36,50 +36,58 @@ const OrdenDelDia = () => {
           responsable: 'Almuerzo Libre'
         },
         {
-          titulo: 'Revisión indicadores y POAS al corte Q3',
+          titulo: 'Revisión indicadores y POAS',
           horaInicio: '1:01 p.m.',
-          horaFinal: '3:30 p.m.',
+          horaFinal: '4:00 p.m.',
           responsable: 'Tecnología, Desarrollo Humano, Proyectos'
         },
         {
           titulo: 'Break II',
-          horaInicio: '03:31 p.m.',
-          horaFinal: '03:45 p.m.',
+          horaInicio: '04:00 p.m.',
+          horaFinal: '04:15 p.m.',
           responsable: 'Brindado por Gerencia'
         },
         {
-          titulo: 'Revisión indicadores y POAS al corte Q3',
-          horaInicio: '03:46 p.m.',
+          titulo: 'Revisión indicadores y POAS ',
+          horaInicio: '04:15 p.m.',
           horaFinal: '05:30 p.m.',
-          responsable: 'Jurídica, Comités i+d, SGI'
+          responsable: 'Jurídica, Comités i+d'
         }
       ]
     },
     {
-      fecha: 'Agenda 2 Nov ⚡',
-      puntos: [
+      fecha: 'Agenda 25 Enero ⚡',
         {
-          titulo: 'Revisión indicadores y POAS al corte Q3',
+      puntos: [
+          titulo: 'Revisión indicadores y POAS',
           horaInicio: '08:30 a.m.',
-          horaFinal: '10:15 a.m.',
-          responsable: 'Operaciones, Mercadeo, GAF'
+          horaFinal: '09:30 a.m.',
+          responsable: 'SGI'
         },
         {
           titulo: 'Break I',
-          horaInicio: '10:16 a.m.',
-          horaFinal: '10:30 a.m.',
+          horaInicio: '09:31 a.m.',
+          horaFinal: '09:45 a.m.',
           responsable: 'Brindado por Gerencia'
         },
         {
-          titulo: 'Revisión indicadores y POAS al corte Q3',
-          horaInicio: '10:31 a.m.',
+          titulo: 'Revisión indicadores y POAS',
+          horaInicio: '09:46 a.m.',
           horaFinal: '12:30 p.m.',
-          responsable: 'Dinámico, Comercial'
+          responsable: 'Operaciones, Mercadeo'
         },
+
+   {
+          titulo: 'Revisión indicadores y POAS',
+          horaInicio: '1:01 p.m.',
+          horaFinal: '4:00 p.m.',
+          responsable: 'GAF, Dinamico, Comercial'
+        },
+    
         {
-          titulo: 'Reunión con Gerencia',
-          horaInicio: '01:30 p.m.',
-          horaFinal: '',
+          titulo: 'Cierre con Gerencia',
+          horaInicio: '04:01 p.m.',
+          horaFinal: '05:30 p.m.',
           responsable: 'Únicamente Gerentes y directores de áreas'
         }
       ]
