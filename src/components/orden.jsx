@@ -57,8 +57,9 @@ const OrdenDelDia = () => {
     },
     {
       fecha: 'Agenda 25 Enero ⚡',
-        {
+        
       puntos: [
+        {
           titulo: 'Revisión indicadores y POAS',
           horaInicio: '08:30 a.m.',
           horaFinal: '09:30 a.m.',
